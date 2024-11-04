@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [26/May/2024:23:50:36 +0200] "GET /Doctor2/rest/patient/get/01001881890 HTTP/1.1" 200 147
+0:0:0:0:0:0:0:1 - - [26/May/2024:23:50:50 +0200] "DELETE /Doctor2/rest/patient/delete/01001881890 HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [26/May/2024:23:55:50 +0200] "POST /Doctor2/rest/patient/delete/01001881890 HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:23:56:04 +0200] "POST /Doctor2/rest/patient/delete/01001881890 HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:23:59:07 +0200] "POST /Doctor2/rest/patient/add HTTP/1.1" 200 154

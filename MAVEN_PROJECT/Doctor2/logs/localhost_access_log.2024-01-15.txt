@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:00:06 +0100] "GET /Doctor2 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:00:11 +0100] "GET /Doctor2/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:00:12 +0100] "GET /favicon.ico HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:00:34 +0100] "GET /Doctor2/rest/pacijent/1 HTTP/1.1" 200 117
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:01:18 +0100] "GET /Doctor2/rest/pacijent/%7B%22id%22:5,%22name%22:%22Jeoe%22,%22surname%22:%22Jeoe%22,%22oib%22:0,%22phone%22:0,%22mail%22:null,%22password%22:null,%22assigned_doctor%22:null%7D HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:01:40 +0100] "GET /Doctor2/rest/pacijent/5 HTTP/1.1" 404 24
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:05:40 +0100] "GET /Doctor2/rest/pacijent HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:07:23 +0100] "POST /Doctor2/rest/pacijent HTTP/1.1" 500 -
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:11:43 +0100] "POST /Doctor2/rest/pacijent/dodaj HTTP/1.1" 500 -

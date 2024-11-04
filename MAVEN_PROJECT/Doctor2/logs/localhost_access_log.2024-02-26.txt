@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:12:50:00 +0100] "GET /Doctor2/rest/patient/get/12345678901 HTTP/1.1" 200 168
+0:0:0:0:0:0:0:1 - - [26/Feb/2024:12:56:01 +0100] "POST /Doctor2/rest/patient/add HTTP/1.1" 200 27

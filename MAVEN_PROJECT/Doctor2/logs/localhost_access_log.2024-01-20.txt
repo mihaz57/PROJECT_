@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:10:08 +0100] "POST /Doctor2 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:10:11 +0100] "GET /Doctor2/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:10:28 +0100] "POST /Doctor2/rest/pacijent/1 HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:10:43 +0100] "POST /Doctor2/rest/patient/1 HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:11:11 +0100] "POST /Doctor2/rest/pacijent/1 HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:11:57 +0100] "GET /Doctor2/rest/pacijent/1 HTTP/1.1" 200 117
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:12:12 +0100] "GET /Doctor2/rest/pacijent/4 HTTP/1.1" 404 24
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:12:40 +0100] "GET /Doctor2/rest/pacijent/1 HTTP/1.1" 200 117
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:13:08 +0100] "POST /Doctor2/rest/pacijent/dodaj/%7B%0A%20%20%20%20%22id%22:%201,%0A%20%20%20%20%22name%22:%20%22Joe%22,%0A%20%20%20%20%22surname%22:%20%22Joe%22,%0A%20%20%20%20%22oib%22:%200,%0A%20%20%20%20%22phone%22:%200,%0A%20%20%20%20%22mail%22:%20null,%0A%20%20%20%20%22password%22:%20null,%0A%20%20%20%20%22assigned_doctor%22:%20null%0A%7D HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:16:26 +0100] "POST /Doctor2/rest/pacijent/dodaj HTTP/1.1" 500 37
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:17:26 +0100] "POST /Doctor2/rest/pacijent/dodaj HTTP/1.1" 500 37
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:31:49 +0100] "POST /Doctor2/rest/pacijent/dodaj HTTP/1.1" 201 25
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:32:09 +0100] "POST /Doctor2/rest/pacijent/2 HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [20/Jan/2024:15:32:18 +0100] "GET /Doctor2/rest/pacijent/2 HTTP/1.1" 200 118

@@ -1,0 +1,230 @@
+2024-11-04 16:15:16:032 +0100 DEBUG org.apache.cxf.common.logging.LogUtils - Using org.apache.cxf.common.logging.Slf4jLogger for logging.
+2024-11-04 16:15:16:572 +0100 DEBUG org.apache.cxf.resource.DefaultResourceManager - resolving resource </WEB-INF/cxfServletStaticResourcesMap.txt> type <class java.io.InputStream>
+2024-11-04 16:15:16:576 +0100 DEBUG org.apache.cxf.resource.DefaultResourceManager - resolving resource </cxfServletStaticResourcesMap.txt> type <class java.io.InputStream>
+2024-11-04 16:15:17:044 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#wait method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:044 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#wait method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:044 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#wait method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:044 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#equals method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:045 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#toString method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:045 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#hashCode method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:046 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#getClass method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:046 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#notify method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:046 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#notifyAll method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:053 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#wait method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:053 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#wait method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:053 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#wait method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:053 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#equals method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:053 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#toString method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:053 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#hashCode method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:054 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#getClass method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:054 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#notify method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:054 +0100 DEBUG org.apache.cxf.jaxrs.utils.ResourceUtils - java.lang.Object#notifyAll method is not a valid JAX-RS method as it has no Path and HttpMethod annotations
+2024-11-04 16:15:17:253 +0100 INFO org.apache.cxf.endpoint.ServerImpl - Setting the server's publish address to be /
+2024-11-04 16:15:17:304 +0100 DEBUG org.apache.cxf.jaxrs.provider.ProviderFactory - Problem with creating the default provider org.apache.cxf.jaxrs.model.wadl.WadlGenerator: org.apache.cxf.jaxrs.model.wadl.WadlGenerator
+2024-11-04 16:15:17:393 +0100 DEBUG org.apache.cxf.jaxrs.model.AbstractResourceInfo - Injecting a custom context org.apache.cxf.jaxrs.ext.MessageContext, ContextProvider is required for this type
+2024-11-04 16:15:17:406 +0100 DEBUG org.apache.cxf.jaxrs.model.AbstractResourceInfo - Injecting a custom context org.apache.cxf.jaxrs.ext.MessageContext, ContextProvider is required for this type
+2024-11-04 16:15:17:419 +0100 DEBUG org.apache.cxf.jaxrs.model.AbstractResourceInfo - Injecting a custom context org.apache.cxf.jaxrs.ext.MessageContext, ContextProvider is required for this type
+2024-11-04 16:15:17:422 +0100 DEBUG org.apache.cxf.jaxrs.model.AbstractResourceInfo - Injecting a custom context org.apache.cxf.jaxrs.ext.MessageContext, ContextProvider is required for this type
+2024-11-04 16:15:17:423 +0100 DEBUG org.apache.cxf.jaxrs.model.AbstractResourceInfo - Injecting a custom context org.apache.cxf.jaxrs.ext.MessageContext, ContextProvider is required for this type
+2024-11-04 16:15:17:423 +0100 DEBUG org.apache.cxf.jaxrs.model.AbstractResourceInfo - Injecting a custom context org.apache.cxf.jaxrs.ext.MessageContext, ContextProvider is required for this type
+2024-11-04 16:15:17:472 +0100 DEBUG org.apache.cxf.jaxrs.provider.ProviderFactory - Problem with creating the default provider org.apache.cxf.jaxrs.provider.json.JSONProvider: org.apache.cxf.jaxrs.provider.json.JSONProvider
+2024-11-04 16:15:17:511 +0100 DEBUG org.apache.cxf.endpoint.ServerImpl - Server is starting.
+2024-11-04 16:15:17:514 +0100 DEBUG org.apache.cxf.transport.servlet.ServletDestination - registering incoming observer: org.apache.cxf.transport.ChainInitiationObserver@4bc3b373
+2024-11-04 16:15:17:514 +0100 DEBUG org.apache.cxf.endpoint.ServerImpl - register the server to serverRegistry 
+2024-11-04 16:15:17:522 +0100 DEBUG org.apache.cxf.resource.DefaultResourceManager - resolving resource <> type <class java.lang.ClassLoader>
+2024-11-04 16:15:17:543 +0100 DEBUG org.apache.cxf.transport.servlet.ServletController - Service http request on thread: Thread[http-nio-8080-exec-1,5,main]
+2024-11-04 16:15:17:544 +0100 DEBUG org.apache.cxf.transport.http.AbstractHTTPDestination - Create a new message for processing
+2024-11-04 16:15:17:576 +0100 DEBUG org.apache.cxf.transport.http.Headers - Request Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Authorization=[***], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], postman-token=[c87dd15c-7e5b-47bc-b601-bf2bc0201bfb], Proxy-Authorization=[***], user-agent=[PostmanRuntime/7.37.3]}
+2024-11-04 16:15:17:631 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.ServiceInvokerInterceptor@7835e1ac to phase invoke
+2024-11-04 16:15:17:632 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.OutgoingChainInterceptor@19a7570d to phase post-invoke
+2024-11-04 16:15:17:632 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.OneWayProcessorInterceptor@1b011764 to phase pre-logical
+2024-11-04 16:15:17:632 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor@4ceead29 to phase unmarshal
+2024-11-04 16:15:17:635 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@11a2d66d to phase pre-stream
+2024-11-04 16:15:17:639 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@198f449d was created. Current flow:
+  pre-stream [CertConstraintsInterceptor]
+  unmarshal [JAXRSInInterceptor]
+  pre-logical [OneWayProcessorInterceptor]
+  invoke [ServiceInvokerInterceptor]
+  post-invoke [OutgoingChainInterceptor]
+
+2024-11-04 16:15:17:639 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@11a2d66d
+2024-11-04 16:15:17:639 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor@4ceead29
+2024-11-04 16:15:17:681 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Trying to select a resource class, request path : /patient/withoutDoctor
+2024-11-04 16:15:17:685 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource class rest.PatientController may get selected, request path : rest.PatientController, resource class @Path : /patient/withoutDoctor
+2024-11-04 16:15:17:686 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No resource class match for rest.DoctorController, request path : /patient/withoutDoctor
+2024-11-04 16:15:17:687 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource class rest.PatientController has been selected, request path : rest.PatientController, resource class @Path : /patient/withoutDoctor
+2024-11-04 16:15:17:692 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Trying to select a resource operation on the resource class rest.PatientController
+2024-11-04 16:15:17:738 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : addPatient, request path : /withoutDoctor, method @Path : /add, HTTP Method : GET, method HTTP Method : POST, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:17:738 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : getPatient, request path : /withoutDoctor, method @Path : /get/{oib}, HTTP Method : GET, method HTTP Method : GET, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:17:738 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : deletePatient, request path : /withoutDoctor, method @Path : /delete/{patientOib}, HTTP Method : GET, method HTTP Method : DELETE, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:17:739 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : updatePatientById, request path : /withoutDoctor, method @Path : /update, HTTP Method : GET, method HTTP Method : PUT, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:17:742 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource operation getPatientsWithoutDoctor may get selected
+2024-11-04 16:15:17:743 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : unassignPatientFromDoctor, request path : /withoutDoctor, method @Path : /unassign, HTTP Method : GET, method HTTP Method : PUT, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:17:743 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : assignPatientToDoctor, request path : /withoutDoctor, method @Path : /assign, HTTP Method : GET, method HTTP Method : PUT, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:17:744 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource operation getPatientsWithoutDoctor on the resource class rest.PatientController has been selected
+2024-11-04 16:15:17:749 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Request path is: /patient/withoutDoctor
+2024-11-04 16:15:17:750 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Request HTTP method is: GET
+2024-11-04 16:15:17:750 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Request contentType is: */*
+2024-11-04 16:15:17:750 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Accept contentType is: */*
+2024-11-04 16:15:17:750 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Found operation: getPatientsWithoutDoctor
+2024-11-04 16:15:17:751 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OneWayProcessorInterceptor@1b011764
+2024-11-04 16:15:17:751 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.ServiceInvokerInterceptor@7835e1ac
+2024-11-04 16:15:17:755 +0100 DEBUG manager.PatientManagement - Starting REST method getPatientsWithoutDoctor.
+2024-11-04 16:15:17:768 +0100 DEBUG manager.PatientManagement - Starting method getPatientsWithoutDoctor.
+2024-11-04 16:15:17:768 +0100 DEBUG database.PatientDao - Starting method getPatientsWithoutDoctor.
+2024-11-04 16:15:17:895 +0100 ERROR database.PatientDao - Error executing query: path to 'database/database.db': 'C:\Users\Mirjam\Desktop\MAVEN_PROJECT\Doctor2\database' does not exist
+2024-11-04 16:15:17:895 +0100 DEBUG database.PatientDao - Finished method getPatientsWithoutDoctor.
+2024-11-04 16:15:17:895 +0100 DEBUG manager.PatientManagement - Finished method getPatientsWithoutDoctor.
+2024-11-04 16:15:17:915 +0100 DEBUG manager.PatientManagement - Finished REST method getPatientsWithoutDoctor.
+2024-11-04 16:15:17:918 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OutgoingChainInterceptor@19a7570d
+2024-11-04 16:15:17:928 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by bus: []
+2024-11-04 16:15:17:928 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by service: []
+2024-11-04 16:15:17:928 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@1dccddc3]
+2024-11-04 16:15:17:928 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by binding: [org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@6f5b9713]
+2024-11-04 16:15:17:928 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@1dccddc3 to phase prepare-send
+2024-11-04 16:15:17:928 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@6f5b9713 to phase marshal
+2024-11-04 16:15:17:929 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@2ffe5187 was created. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+
+2024-11-04 16:15:17:929 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@1dccddc3
+2024-11-04 16:15:17:939 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@6c3f92b4 to phase prepare-send-ending
+2024-11-04 16:15:17:939 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@2ffe5187 was modified. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+2024-11-04 16:15:17:939 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@6f5b9713
+2024-11-04 16:15:17:946 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor - Response content type is: application/json
+2024-11-04 16:15:17:970 +0100 DEBUG org.apache.cxf.ws.addressing.ContextUtils - retrieving MAPs from context property javax.xml.ws.addressing.context.inbound
+2024-11-04 16:15:17:971 +0100 DEBUG org.apache.cxf.ws.addressing.ContextUtils - WS-Addressing - failed to retrieve Message Addressing Properties from context
+2024-11-04 16:15:18:000 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@6c3f92b4
+2024-11-04 16:15:18:006 +0100 DEBUG org.apache.cxf.transport.http.AbstractHTTPDestination - Finished servicing http request on thread: Thread[http-nio-8080-exec-1,5,main]
+2024-11-04 16:15:18:007 +0100 DEBUG org.apache.cxf.transport.servlet.ServletController - Finished servicing http request on thread: Thread[http-nio-8080-exec-1,5,main]
+2024-11-04 16:15:43:582 +0100 DEBUG org.apache.cxf.resource.DefaultResourceManager - resolving resource <> type <class java.lang.ClassLoader>
+2024-11-04 16:15:43:584 +0100 DEBUG org.apache.cxf.transport.servlet.ServletController - Service http request on thread: Thread[http-nio-8080-exec-4,5,main]
+2024-11-04 16:15:43:584 +0100 DEBUG org.apache.cxf.transport.http.AbstractHTTPDestination - Create a new message for processing
+2024-11-04 16:15:43:587 +0100 DEBUG org.apache.cxf.transport.http.Headers - Request Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Authorization=[***], connection=[keep-alive], Content-Length=[56], content-type=[application/json], host=[localhost:8080], postman-token=[92634c11-a41c-486a-bdd9-6440e5957152], Proxy-Authorization=[***], user-agent=[PostmanRuntime/7.37.3]}
+2024-11-04 16:15:43:587 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@11a2d66d to phase pre-stream
+2024-11-04 16:15:43:587 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@489e192f was created. Current flow:
+  pre-stream [CertConstraintsInterceptor]
+  unmarshal [JAXRSInInterceptor]
+  pre-logical [OneWayProcessorInterceptor]
+  invoke [ServiceInvokerInterceptor]
+  post-invoke [OutgoingChainInterceptor]
+
+2024-11-04 16:15:43:588 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@11a2d66d
+2024-11-04 16:15:43:588 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor@4ceead29
+2024-11-04 16:15:43:588 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Trying to select a resource class, request path : /patient/assign
+2024-11-04 16:15:43:588 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource class rest.PatientController may get selected, request path : rest.PatientController, resource class @Path : /patient/assign
+2024-11-04 16:15:43:589 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No resource class match for rest.DoctorController, request path : /patient/assign
+2024-11-04 16:15:43:589 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource class rest.PatientController has been selected, request path : rest.PatientController, resource class @Path : /patient/assign
+2024-11-04 16:15:43:589 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Trying to select a resource operation on the resource class rest.PatientController
+2024-11-04 16:15:43:589 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : addPatient, request path : /assign, method @Path : /add, HTTP Method : PUT, method HTTP Method : POST, ContentType : application/json, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:43:590 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : getPatient, request path : /assign, method @Path : /get/{oib}, HTTP Method : PUT, method HTTP Method : GET, ContentType : application/json, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:43:595 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : deletePatient, request path : /assign, method @Path : /delete/{patientOib}, HTTP Method : PUT, method HTTP Method : DELETE, ContentType : application/json, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:43:595 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : updatePatientById, request path : /assign, method @Path : /update, HTTP Method : PUT, method HTTP Method : PUT, ContentType : application/json, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:43:596 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : getPatientsWithoutDoctor, request path : /assign, method @Path : /withoutDoctor, HTTP Method : PUT, method HTTP Method : GET, ContentType : application/json, method @Consumes : */*,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:43:596 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : unassignPatientFromDoctor, request path : /assign, method @Path : /unassign, HTTP Method : PUT, method HTTP Method : PUT, ContentType : application/json, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:15:43:596 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource operation assignPatientToDoctor may get selected
+2024-11-04 16:15:43:597 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource operation assignPatientToDoctor on the resource class rest.PatientController has been selected
+2024-11-04 16:15:43:597 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Request path is: /patient/assign
+2024-11-04 16:15:43:597 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Request HTTP method is: PUT
+2024-11-04 16:15:43:597 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Request contentType is: application/json
+2024-11-04 16:15:43:597 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Accept contentType is: */*
+2024-11-04 16:15:43:598 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Found operation: assignPatientToDoctor
+2024-11-04 16:15:44:984 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OneWayProcessorInterceptor@1b011764
+2024-11-04 16:15:44:984 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.ServiceInvokerInterceptor@7835e1ac
+2024-11-04 16:15:44:985 +0100 DEBUG manager.PatientManagement - Starting method assignPatientToDoctor.
+2024-11-04 16:15:44:985 +0100 DEBUG manager.PatientManagement - SStarting method assignPatientToDoctor.
+2024-11-04 16:15:44:985 +0100 DEBUG manager.PatientManagement - Finished method assignPatientToDoctor.
+2024-11-04 16:15:44:986 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OutgoingChainInterceptor@19a7570d
+2024-11-04 16:15:44:986 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by bus: []
+2024-11-04 16:15:44:986 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by service: []
+2024-11-04 16:15:44:986 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@1dccddc3]
+2024-11-04 16:15:44:986 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by binding: [org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@6f5b9713]
+2024-11-04 16:15:44:986 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@3e16fe4c was created. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+
+2024-11-04 16:15:44:986 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@1dccddc3
+2024-11-04 16:15:44:987 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@6c3f92b4 to phase prepare-send-ending
+2024-11-04 16:15:44:987 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@3e16fe4c was modified. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+2024-11-04 16:15:44:987 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@6f5b9713
+2024-11-04 16:15:44:987 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor - Response content type is: application/json
+2024-11-04 16:15:44:987 +0100 DEBUG org.apache.cxf.ws.addressing.ContextUtils - retrieving MAPs from context property javax.xml.ws.addressing.context.inbound
+2024-11-04 16:15:44:988 +0100 DEBUG org.apache.cxf.ws.addressing.ContextUtils - WS-Addressing - failed to retrieve Message Addressing Properties from context
+2024-11-04 16:15:44:988 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@6c3f92b4
+2024-11-04 16:15:44:988 +0100 DEBUG org.apache.cxf.transport.http.AbstractHTTPDestination - Finished servicing http request on thread: Thread[http-nio-8080-exec-4,5,main]
+2024-11-04 16:15:44:989 +0100 DEBUG org.apache.cxf.transport.servlet.ServletController - Finished servicing http request on thread: Thread[http-nio-8080-exec-4,5,main]
+2024-11-04 16:16:00:906 +0100 DEBUG org.apache.cxf.resource.DefaultResourceManager - resolving resource <> type <class java.lang.ClassLoader>
+2024-11-04 16:16:00:910 +0100 DEBUG org.apache.cxf.transport.servlet.ServletController - Service http request on thread: Thread[http-nio-8080-exec-5,5,main]
+2024-11-04 16:16:00:910 +0100 DEBUG org.apache.cxf.transport.http.AbstractHTTPDestination - Create a new message for processing
+2024-11-04 16:16:00:911 +0100 DEBUG org.apache.cxf.transport.http.Headers - Request Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], Authorization=[***], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], postman-token=[0a58482b-a79b-435c-b667-452c36086ea7], Proxy-Authorization=[***], user-agent=[PostmanRuntime/7.37.3]}
+2024-11-04 16:16:00:911 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@11a2d66d to phase pre-stream
+2024-11-04 16:16:00:911 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@6d30a263 was created. Current flow:
+  pre-stream [CertConstraintsInterceptor]
+  unmarshal [JAXRSInInterceptor]
+  pre-logical [OneWayProcessorInterceptor]
+  invoke [ServiceInvokerInterceptor]
+  post-invoke [OutgoingChainInterceptor]
+
+2024-11-04 16:16:00:911 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.transport.https.CertConstraintsInterceptor@11a2d66d
+2024-11-04 16:16:00:912 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor@4ceead29
+2024-11-04 16:16:00:912 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Trying to select a resource class, request path : /patient/withoutDoctor
+2024-11-04 16:16:00:913 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource class rest.PatientController may get selected, request path : rest.PatientController, resource class @Path : /patient/withoutDoctor
+2024-11-04 16:16:00:913 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No resource class match for rest.DoctorController, request path : /patient/withoutDoctor
+2024-11-04 16:16:00:913 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource class rest.PatientController has been selected, request path : rest.PatientController, resource class @Path : /patient/withoutDoctor
+2024-11-04 16:16:00:914 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Trying to select a resource operation on the resource class rest.PatientController
+2024-11-04 16:16:00:914 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : addPatient, request path : /withoutDoctor, method @Path : /add, HTTP Method : GET, method HTTP Method : POST, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:16:00:914 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : getPatient, request path : /withoutDoctor, method @Path : /get/{oib}, HTTP Method : GET, method HTTP Method : GET, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:16:00:915 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : deletePatient, request path : /withoutDoctor, method @Path : /delete/{patientOib}, HTTP Method : GET, method HTTP Method : DELETE, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:16:00:915 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : updatePatientById, request path : /withoutDoctor, method @Path : /update, HTTP Method : GET, method HTTP Method : PUT, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:16:00:915 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource operation getPatientsWithoutDoctor may get selected
+2024-11-04 16:16:00:916 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : unassignPatientFromDoctor, request path : /withoutDoctor, method @Path : /unassign, HTTP Method : GET, method HTTP Method : PUT, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:16:00:916 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - No method match, method name : assignPatientToDoctor, request path : /withoutDoctor, method @Path : /assign, HTTP Method : GET, method HTTP Method : PUT, ContentType : */*, method @Consumes : application/json,, Accept : */*,, method @Produces : application/json,.
+2024-11-04 16:16:00:916 +0100 DEBUG org.apache.cxf.jaxrs.utils.JAXRSUtils - Resource operation getPatientsWithoutDoctor on the resource class rest.PatientController has been selected
+2024-11-04 16:16:00:917 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Request path is: /patient/withoutDoctor
+2024-11-04 16:16:00:917 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Request HTTP method is: GET
+2024-11-04 16:16:00:917 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Request contentType is: */*
+2024-11-04 16:16:00:917 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Accept contentType is: */*
+2024-11-04 16:16:00:917 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor - Found operation: getPatientsWithoutDoctor
+2024-11-04 16:16:00:917 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OneWayProcessorInterceptor@1b011764
+2024-11-04 16:16:00:918 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.ServiceInvokerInterceptor@7835e1ac
+2024-11-04 16:16:00:918 +0100 DEBUG manager.PatientManagement - Starting REST method getPatientsWithoutDoctor.
+2024-11-04 16:16:00:918 +0100 DEBUG manager.PatientManagement - Starting method getPatientsWithoutDoctor.
+2024-11-04 16:16:00:918 +0100 DEBUG database.PatientDao - Starting method getPatientsWithoutDoctor.
+2024-11-04 16:16:00:919 +0100 ERROR database.PatientDao - Error executing query: path to 'database/database.db': 'C:\Users\Mirjam\Desktop\MAVEN_PROJECT\Doctor2\database' does not exist
+2024-11-04 16:16:00:919 +0100 DEBUG database.PatientDao - Finished method getPatientsWithoutDoctor.
+2024-11-04 16:16:00:919 +0100 DEBUG manager.PatientManagement - Finished method getPatientsWithoutDoctor.
+2024-11-04 16:16:00:920 +0100 DEBUG manager.PatientManagement - Finished REST method getPatientsWithoutDoctor.
+2024-11-04 16:16:00:920 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.OutgoingChainInterceptor@19a7570d
+2024-11-04 16:16:00:921 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by bus: []
+2024-11-04 16:16:00:921 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by service: []
+2024-11-04 16:16:00:922 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by endpoint: [org.apache.cxf.interceptor.MessageSenderInterceptor@1dccddc3]
+2024-11-04 16:16:00:922 +0100 DEBUG org.apache.cxf.interceptor.OutgoingChainInterceptor - Interceptors contributed by binding: [org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@6f5b9713]
+2024-11-04 16:16:00:922 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@690f3b1d was created. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+
+2024-11-04 16:16:00:925 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor@1dccddc3
+2024-11-04 16:16:00:925 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Adding interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@6c3f92b4 to phase prepare-send-ending
+2024-11-04 16:16:00:926 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Chain org.apache.cxf.phase.PhaseInterceptorChain@690f3b1d was modified. Current flow:
+  prepare-send [MessageSenderInterceptor]
+  marshal [JAXRSOutInterceptor]
+  prepare-send-ending [MessageSenderEndingInterceptor]
+
+2024-11-04 16:16:00:926 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor@6f5b9713
+2024-11-04 16:16:00:926 +0100 DEBUG org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor - Response content type is: application/json
+2024-11-04 16:16:00:927 +0100 DEBUG org.apache.cxf.ws.addressing.ContextUtils - retrieving MAPs from context property javax.xml.ws.addressing.context.inbound
+2024-11-04 16:16:00:927 +0100 DEBUG org.apache.cxf.ws.addressing.ContextUtils - WS-Addressing - failed to retrieve Message Addressing Properties from context
+2024-11-04 16:16:00:928 +0100 DEBUG org.apache.cxf.phase.PhaseInterceptorChain - Invoking handleMessage on interceptor org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor@6c3f92b4
+2024-11-04 16:16:00:931 +0100 DEBUG org.apache.cxf.transport.http.AbstractHTTPDestination - Finished servicing http request on thread: Thread[http-nio-8080-exec-5,5,main]
+2024-11-04 16:16:00:932 +0100 DEBUG org.apache.cxf.transport.servlet.ServletController - Finished servicing http request on thread: Thread[http-nio-8080-exec-5,5,main]
+2024-11-04 16:19:31:283 +0100 DEBUG org.apache.cxf.endpoint.ServerImpl - Server is stopping.
+2024-11-04 16:19:31:422 +0100 DEBUG org.apache.cxf.transport.servlet.ServletDestination - unregistering incoming observer: org.apache.cxf.transport.ChainInitiationObserver@4bc3b373
+2024-11-04 16:19:31:422 +0100 DEBUG org.apache.cxf.endpoint.ServerImpl - unregister the server to serverRegistry 

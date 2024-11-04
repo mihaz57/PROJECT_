@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [27/Jan/2024:02:32:15 +0100] "GET /Doctor2/rest/patient/1 HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2024:02:32:58 +0100] "GET /Doctor2/rest/pacijent/1 HTTP/1.1" 200 120
+0:0:0:0:0:0:0:1 - - [27/Jan/2024:02:33:48 +0100] "GET /Doctor2/rest/pacijent/dodaj HTTP/1.1" 404 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2024:02:37:22 +0100] "POST /Doctor2/rest/pacijent/dodaj HTTP/1.1" 400 24

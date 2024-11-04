@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:10:25:10 +0200] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 12
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:10:25:56 +0200] "POST /Doctor2/rest/patient/add HTTP/1.1" 200 168
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:10:26:10 +0200] "POST /Doctor2/rest/patient/add HTTP/1.1" 500 104
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:10:30:09 +0200] "POST /Doctor2/rest/patient/add HTTP/1.1" 500 57
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:11:13:22 +0200] "DELETE /Doctor2/rest/patient/delete/0100188180 HTTP/1.1" 400 11
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:11:14:03 +0200] "DELETE /Doctor2/rest/patient/delete/01001881800 HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:11:14:12 +0200] "DELETE /Doctor2/rest/patient/delete/01001881811 HTTP/1.1" 404 40
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:11:22:52 +0200] "PUT /Doctor2/rest/patient/update HTTP/1.1" 400 11
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:11:23:02 +0200] "PUT /Doctor2/rest/patient/update HTTP/1.1" 200 54
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:11:30:02 +0200] "PUT /Doctor2/rest/patient/update HTTP/1.1" 200 170
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:12:12:56 +0200] "PUT /Doctor2/rest/patient/add HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:12:16:12 +0200] "PUT /Doctor2/rest/patient/add HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:12:16:42 +0200] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 11
+0:0:0:0:0:0:0:1 - - [22/Apr/2024:12:55:41 +0200] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 11

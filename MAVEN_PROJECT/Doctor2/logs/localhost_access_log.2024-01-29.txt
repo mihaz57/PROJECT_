@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [29/Jan/2024:12:21:53 +0100] "POST /Doctor2/rest/pacijent/1 HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [29/Jan/2024:12:22:01 +0100] "GET /Doctor2/rest/pacijent/1 HTTP/1.1" 200 120
+0:0:0:0:0:0:0:1 - - [29/Jan/2024:12:22:45 +0100] "POST /Doctor2/rest/pacijent/dodaj HTTP/1.1" 400 24
+0:0:0:0:0:0:0:1 - - [29/Jan/2024:12:23:07 +0100] "POST /Doctor2/rest/doctor/1 HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [29/Jan/2024:12:23:11 +0100] "POST /Doctor2/rest/doctor/1 HTTP/1.1" 405 -
+0:0:0:0:0:0:0:1 - - [29/Jan/2024:12:23:14 +0100] "GET /Doctor2/rest/doctor/1 HTTP/1.1" 200 107
+0:0:0:0:0:0:0:1 - - [29/Jan/2024:13:10:07 +0100] "GET /Doctor2/rest/pacijent/1 HTTP/1.1" 200 120
+0:0:0:0:0:0:0:1 - - [29/Jan/2024:13:10:41 +0100] "POST /Doctor2/rest/pacijent/dodaj HTTP/1.1" 400 24
+0:0:0:0:0:0:0:1 - - [29/Jan/2024:13:43:12 +0100] "POST /Doctor2/rest/pacijent/dodaj HTTP/1.1" 400 24

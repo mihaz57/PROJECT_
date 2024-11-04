@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:23:22:25 +0100] "GET /Doctor2/rest/patient/get/11001881818 HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:23:23:18 +0100] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 48
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:23:53:53 +0100] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 30
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:23:54:00 +0100] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 30
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:23:54:16 +0100] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 30
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:23:55:25 +0100] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 30
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:23:55:36 +0100] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 30
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:23:59:16 +0100] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 30
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:23:59:25 +0100] "POST /Doctor2/rest/patient/add HTTP/1.1" 400 63

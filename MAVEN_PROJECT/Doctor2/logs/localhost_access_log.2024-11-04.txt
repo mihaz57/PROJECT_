@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [04/Nov/2024:16:06:54 +0100] "GET /Doctor2/rest/patient/withoutDoctor HTTP/1.1" 200 154
+0:0:0:0:0:0:0:1 - - [04/Nov/2024:16:15:18 +0100] "GET /Doctor2/rest/patient/withoutDoctor HTTP/1.1" 500 54
+0:0:0:0:0:0:0:1 - - [04/Nov/2024:16:15:44 +0100] "PUT /Doctor2/rest/patient/assign HTTP/1.1" 500 54
+0:0:0:0:0:0:0:1 - - [04/Nov/2024:16:16:00 +0100] "GET /Doctor2/rest/patient/withoutDoctor HTTP/1.1" 500 54
