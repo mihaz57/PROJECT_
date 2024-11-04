@@ -1,8 +1,8 @@
 package exceptions;
 public class DBConnectionException extends Exception {
-    public DBConnectionException(Throwable cause) {                    /* cause-uzrok iznimke */
+    public DBConnectionException(Throwable cause) {
 
-        super("Query execution failed: ", cause);                      //poruka i uzrok
+        super("Query execution failed: ", cause);
     }
 
 

@@ -12,73 +12,17 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-//Data Access Object - pristup podacima iz baze
+
 public class PatientDao {
     private static final Logger logger = LoggerFactory.getLogger(PatientDao.class);
-    /*
-    public void createTable() throws Exception {
-        String query = "CREATE TABLE IF NOT EXISTS patient (\n"
-                + "id INTEGER PRIMARY KEY AUTOINCREMENT,\n"
-                + "name TEXT NOT NULL,\n"
-                + "surname TEXT NOT NULL,\n"
-                + "oib TEXT NOT NULL,\n"
-                + "phone INTEGER NOT NULL,\n"
-                + "mail TEXT NOT NULL,\n"
-                + "password TEXT NOT NULL,\n"
-                + "assigned_doctor TEXT\n"
-                //+ "FOREIGN KEY (assigned_doctor_id) REFERENCES Doctor(id) ON DELETE SET NULL,\n"
-                + ");";
-
-        try (Connection conn = SConnection.getConnection();
-             Statement stmt = conn.createStatement()) {
-            stmt.executeQuery(query);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void insertTable() {
-        String sql = "INSERT INTO patient ( name, surname, oib, phone, mail, password, assigned_doctor) VALUES ('Joe', 'Joe', 11111111111, 0921418726,'lalal@gmail.com', '12345', '111')";
-
-        try (Connection conn = SConnection.getConnection();  //vraca konekciju koja se zatvara nakon izlaska iz bloka
-             Statement stmt = conn.createStatement()) {       //Izvršavanje SQL upita pomoću stmt.executeUpdate(sql)
-            stmt.executeUpdate(sql);                          // izvršava SQL upit definiran varijablom 'sql'.
-        } catch (SQLException e) {
-            e.printStackTrace();                            //ispisuje informacije o iznimci na standardni izlaz.
-        }
-    }
-
-    public boolean isTablePopulated() {
-        String sql = "SELECT COUNT(*) AS number FROM patient";
-        try (Connection conn = SConnection.getConnection();
-             Statement stmt = conn.createStatement();
-             ResultSet rs = stmt.executeQuery(sql)) {
-            return rs.next() && rs.getInt("number") > 0;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return false;
-        }
-    }
-
-    public boolean isIdUnique(int id) {
-        String sql = "SELECT COUNT(*) AS count FROM patient WHERE id = " + id;
-        try (Connection conn = SConnection.getConnection();
-             Statement stmt = conn.createStatement();
-             ResultSet rs = stmt.executeQuery(sql)) {
-            return rs.next() && rs.getInt("count") == 0;
-        } catch (SQLException e) {
-            e.printStackTrace();
-            return false;
-        }
-    }*/
 
     public boolean isOibUnique(String oib) throws DBConnectionException {
         logger.debug("Starting method isOibUnique. ");
         String sql = "SELECT COUNT(*) AS count FROM patient WHERE oib = '" + oib + "'";
         try (Connection conn = SConnection.getConnection();
              Statement stmt = conn.createStatement();
-             ResultSet rs = stmt.executeQuery(sql)) {                                 // Omogućava iteriranje kroz rezultate i dobijanje podataka
-            return rs.next() && rs.getInt("count") == 0;                    //rs.next() pomice se u sljedeci red
+             ResultSet rs = stmt.executeQuery(sql)) {
+            return rs.next() && rs.getInt("count") == 0;
         } catch (SQLException e) {
             throw new DBConnectionException(e);
         }
@@ -115,9 +59,9 @@ public class PatientDao {
         try (Connection conn = SConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(query)){
 
-            pstmt.setString(1, patientOib);                             //postavljanje oiba u sql upit
+            pstmt.setString(1, patientOib);
 
-            int rowsAffected = pstmt.executeUpdate();                                //broj redaka koji su promjenjeni mu db
+            int rowsAffected = pstmt.executeUpdate();
             return rowsAffected > 0;
         } catch (SQLException e) {
             logger.error("Error executing query: ", e.getMessage());
@@ -184,7 +128,7 @@ public class PatientDao {
             st.setInt(7, patient.getDoctor_id());
             st.executeUpdate();
             resultSet = st.getGeneratedKeys();
-            if (resultSet.next()) {                                                             //akom postoji iduci redvracab true
+            if (resultSet.next()) {
                 int generatedId = resultSet.getInt(1);
                 patientResponse = new PatientDto(generatedId, patient.getName(), patient.getSurname(), patient.getOib(), patient.getPhone(), patient.getMail(), patient.getPassword(), patient.getDoctor_id());
                 return patientResponse;
@@ -314,12 +258,3 @@ public class PatientDao {
 
 }
 
-
-
-
-
-
-
-//https://www.tabnine.com/code/java/methods/java.sql.Statement/executeUpdate
-//https://www.geeksforgeeks.org/how-to-use-preparedstatement-in-java/
-/*PreparedStatement sučelje proširuje Statement sučelje ono predstavlja unaprijed kompajliranu SQL naredbu koja se može izvršiti više puta. Ovo prihvaća parametrizirane SQL upite i ovom upitu možete proslijediti 0 ili više parametara.*/

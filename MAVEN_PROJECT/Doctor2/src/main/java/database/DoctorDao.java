@@ -20,8 +20,8 @@ public class DoctorDao {
         String sql = "SELECT COUNT(*) AS count FROM doctor WHERE oib = '" + oib + "'";
         try (Connection conn = SConnection.getConnection();
              Statement stmt = conn.createStatement();
-             ResultSet rs = stmt.executeQuery(sql)) {                                 // Omogućava iteriranje kroz rezultate i dobijanje podataka
-            return rs.next() && rs.getInt("count") == 0;                    //rs.next() pomice se u sljedeci red
+             ResultSet rs = stmt.executeQuery(sql)) {
+            return rs.next() && rs.getInt("count") == 0;
         } catch (SQLException e) {
             throw new DBConnectionException(e);
         }
@@ -57,9 +57,9 @@ public class DoctorDao {
         try (Connection conn = SConnection.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(query)){
 
-            pstmt.setString(1, patientOib);             //postavljanje oiba u sql upit
+            pstmt.setString(1, patientOib);
 
-            int rowsAffected = pstmt.executeUpdate();                //broj redaka koji su promjenjeni mu db
+            int rowsAffected = pstmt.executeUpdate();
             return rowsAffected > 0;
         } catch (SQLException e) {
             logger.error("Error executing query: ", e.getMessage());
@@ -157,9 +157,9 @@ public class DoctorDao {
 
             st.setString(1, doctor.getName());
             st.setString(2, doctor.getSurname());
-            st.setInt(3, doctor.getPhone()); // Pretpostavljamo da je phone String
+            st.setInt(3, doctor.getPhone());
             st.setString(4, doctor.getMail());
-            st.setString(5, doctor.getPassword()); // Dodano postavljanje password polja
+            st.setString(5, doctor.getPassword());
             st.setInt(6, doctor.getCapacity());
             st.setInt(7, doctor.getClinic_id());
             st.setString(8, doctor.getOib());
